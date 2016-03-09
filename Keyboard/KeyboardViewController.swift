@@ -27,6 +27,11 @@ public class KeyboardViewController: UIInputViewController {
             self.forwardingView.hidden = keyboardHidden
         }
     }
+    public var keyboardView: UIView {
+        get {
+            return self.forwardingView
+        }
+    }
     
     let backspaceDelay: NSTimeInterval = 0.5
     let backspaceRepeat: NSTimeInterval = 0.07
