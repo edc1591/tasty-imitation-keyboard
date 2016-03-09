@@ -93,7 +93,7 @@ public class KeyboardViewController: UIInputViewController {
         self.init(nibName: nil, bundle: nil)
     }
     
-    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
+    override public init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
         NSUserDefaults.standardUserDefaults().registerDefaults([
             kAutoCapitalization: true,
             kPeriodShortcut: true,
