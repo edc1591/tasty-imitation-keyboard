@@ -22,6 +22,12 @@ let kSmallLowercase = "kSmallLowercase"
 
 public class KeyboardViewController: UIInputViewController {
     
+    public var keyboardHidden = false {
+        didSet {
+            self.forwardingView.hidden = keyboardHidden
+        }
+    }
+    
     let backspaceDelay: NSTimeInterval = 0.5
     let backspaceRepeat: NSTimeInterval = 0.07
     
