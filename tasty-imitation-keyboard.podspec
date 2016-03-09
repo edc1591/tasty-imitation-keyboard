@@ -16,6 +16,6 @@ Pod::Spec.new do |s|
   s.author             = { "Evan Coleman" => "e@edc.me" }
   s.social_media_url   = "http://twitter.com/edc1591"
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://github.com/edc1591/tasty-imitation-keyboard.git", :commit => "8b5739618aa74dafdc520917d7653315100c4b30" }
+  s.source       = { :git => "https://github.com/edc1591/tasty-imitation-keyboard.git", :commit => "786c9305517735263605e87e9707a0de7f83a2e1" }
   s.source_files  = "Keyboard/"
 end
